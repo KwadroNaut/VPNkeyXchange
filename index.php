@@ -166,7 +166,7 @@ function debug($msg){
 
 // ----------------------------------------------------------------------------
 
-// get parameters and initialice settings
+// get parameters and initialize settings
 if(isset($_SERVER['HTTP_X_FORWARDED_FOR']) && $_SERVER['HTTP_X_FORWARDED_FOR'])
   $ip = $_SERVER ['HTTP_X_FORWARDED_FOR'];
 
